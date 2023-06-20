@@ -1,0 +1,108 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      About ME
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-toolbar>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+        </ion-button>
+        <ion-button>
+          <ion-icon slot="icon-only" name="search"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="primary">
+        <ion-button>
+          <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title></ion-title>
+    </ion-toolbar>
+
+    <ion-card>
+      <img alt="Silhouette of mountains" src="assets\icon\IMG20230201084839.jpg" />
+      <ion-card-header>
+        <ion-card-title>Card Title</ion-card-title>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Adress: Estrella Mabini Batangas
+        <ion-card-content></ion-card-content>
+        Birth Date: February 12 2002
+      <ion-toolbar>
+  <ion-buttons slot="secondary">
+    <ion-button>
+      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+    </ion-button>
+    <ion-button>
+      <ion-icon slot="icon-only" name="search"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="primary">
+    <ion-button>
+      <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-title></ion-title>
+</ion-toolbar>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon ></ion-icon>
+         <ion-fab>
+          <ion-fab-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button fill="outline">
+       
+        Edit
+        <ion-icon slot="end" name="create"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+  
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+  
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Jomel Sawali</ion-title>
+   
+  </ion-toolbar>
+  <ion-button id="click-trigger">Click Me</ion-button>
+<ion-popover trigger="click-trigger" triggerAction="click">
+  <ng-template>
+    
+    <ion-content class="ion-padding">My name is Jomel V. Sawali im 21 years old </ion-content>
+  </ng-template>
+</ion-popover>
+
+ 
+</ion-content>
